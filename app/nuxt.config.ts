@@ -20,6 +20,14 @@ const config: any = {
   },
 
   /**
+   * Server options
+   */
+  server: {
+    host: process.env.APP_HOST,
+    port: process.env.APP_PORT,
+  },  
+
+  /**
    ** Build configuration
    */
   build: {

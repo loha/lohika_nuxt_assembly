@@ -13,6 +13,10 @@ module.exports = {
       loader: 'awesome-typescript-loader',
     });
 
+    config.resolve.alias = {
+      '~': path.resolve(__dirname, './server/'),
+    };
+
     return config;
   },
 };

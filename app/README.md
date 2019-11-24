@@ -1,0 +1,1 @@
+# lohika_nuxt_assembly

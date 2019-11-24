@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  nuxt:
+    build: ./app/
+    container_name: lohika_nuxt_assembly
+    restart: always
+    ports:
+      - "3000:3000"
+    command:
+      "yarn run start"

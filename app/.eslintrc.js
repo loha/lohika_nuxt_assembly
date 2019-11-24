@@ -1,0 +1,23 @@
+module.exports = {
+  extends: ['@nuxtjs/eslint-config-typescript'],
+  rules: {
+    '@typescript-eslint/no-unused-vars': 'off',
+    semi: 0,
+    quotes: 'off',
+    'arrow-parens': 'off',
+    'comma-dangle': 'off',
+    'dot-notation': 'off',
+    'no-unused-vars': 'off',
+    'no-useless-escape': 'off',
+    'no-console': 'off',
+    'vue/attribute-hyphenation': 'off',
+    'vue/html-closing-bracket-spacing': 'off',
+    'vue/html-self-closing': 'off',
+    'vue/multiline-html-element-content-newline': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
+    'spaced-comment': 'off',
+    'space-before-function-paren': 'off',
+    'standard/computed-property-even-spacing': 'off',
+    'require-await': 'off',
+  },
+};

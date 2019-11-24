@@ -8,7 +8,7 @@
     "build": "nuxt build && backpack build",
     "build-nuxt": "nuxt build",
     "build-server": "backpack build",
-    "start": "cross-env NODE_ENV=production nodemon build/main.js --watch server",
+    "start": "cross-env NODE_ENV=production node build/main.js",
     "lint": "eslint --ext .ts,.vue --ignore-path .gitignore ."
   },
   "dependencies": {

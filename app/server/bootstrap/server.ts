@@ -1,12 +1,12 @@
 import Koa from 'koa';
 import consola from 'consola';
 import { Nuxt, Builder } from 'nuxt';
-import config from '../nuxt.config';
+import config from '../../nuxt.config';
 
 const app = new Koa();
 config.dev = app.env !== 'production';
 
-async function start () {
+export async function start() {
   // Instantiate nuxt.js
   const nuxt = new Nuxt(config);
 
@@ -34,5 +34,3 @@ async function start () {
     badge: true,
   });
 }
-
-start();
